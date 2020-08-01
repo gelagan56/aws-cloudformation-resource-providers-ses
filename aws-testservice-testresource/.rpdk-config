@@ -1,0 +1,16 @@
+{
+    "typeName": "AWS::TestService::TestResource",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.testservice.testresource.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.testservice.testresource.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "testservice",
+            "testresource"
+        ],
+        "codegen_template_path": "guided_aws"
+    }
+}
